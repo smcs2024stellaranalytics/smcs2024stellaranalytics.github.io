@@ -21,7 +21,7 @@ function w3_open() {
 function w3_close() {
     mySidebar.style.display = "none";
 }
-
+ 
 function toOther() {
   window.location.href = "https://smcs2024stellaranalytics.github.io/third.html";
 }
