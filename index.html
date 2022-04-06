@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Stellar Analytics</title>
+    <link rel="icon" type="image/x-icon" href="/assets/icon.png">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="/assets/source.js"></script>
+<link rel="stylesheet" href="/assets/stylesheet.css"
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button"><img src="/assets/ourLogo.png" alt="Logo" width=140vh></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+      <a href="/second.html" class="w3-bar-item w3-button"><i class="fa fa-refresh"></i> PROGRESS</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-pale-yellow w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+  <a href="/second.html" onclick="w3_close()" class="w3-bar-item w3-button">PROGRESS</a>
+</nav>
+
+<!-- Header with full-height image -->
+  <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+    <div class="w3-animate-opacity w3-center w3-text-white" style="padding:190px">
+      <span class="w3-xxxlarge">Stellar Analytics</span><br>
+      <h3 href="" class="w3-large typewrite" data-period="10000000" data-type='[ "Software from out of this world." ]'></h3>
+    <span class="wrap"></span>
+
+      <p><a onclick="toOther()" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Final Product</a></p>
+    </div>
+  </header>
+  
+
+  
+<!-- About Section -->
+<div class="w3-container" style="padding-top: 40px padding-bottom: 5px padding:128px 16px" id="about" >
+  <h2 class="w3-center"> ABOUT THE COMPANY</h2>
+  <div class="w3-row-padding w3-center" style="margin-top:10px">
+<!-- idk what to do here ... -->    
+    <h5 style="padding-bottom : 30px">Our company is based in Poolesville, Maryland and is comprised of 4 SMCS sophmores working on our final Computer Science project of the school year! With all that we have learned throughout our course this year, we are motivated to create the best software for our client to help support them in their desired aspect of life.  </h5>
+  </div>
+</div>
+
+<hr class="rounded padding-right: 20px padding-left: 20px">
+
+
+<!-- Team Section -->
+<div class="img w3-container" style="padding-top: 20px padding:128px 16px" id="team">
+  <h3 class="w3-center">Meet the Team!</h3>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="img w3-card">
+        <img src="/assets/people/chrisRamos.png" alt="Chris Ramos" style="width:100%">
+        <div class="w3-container">
+          <h3>Chris Ramos</h3>
+          <p class="w3-opacity">Project Manager</p>
+          <p>As the Project Manager, I am dedicated to making sure that our customer has all their needs satisfied! I will make sure regular communication with our client occurs as to produce the best product possible!</.p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="/assets/people/patrickf.jpg" alt="Patrick Foley" style="width:100%">
+        <div class="w3-container">
+          <h3>Patrick Foley</h3>
+          <p class="w3-opacity">Lead Programmer</p>
+          <p>Hello! I have 3 years of experience in Python, 2 years of experience in Java, and 1 year self taught in HTML/CSS! I will ensure your ideas come to life!</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="/assets/people/patrickl.jpg" alt="Patrick Le" style="width:100%">
+        <div class="w3-container">
+          <h3>Patrick Le</h3>
+          <p class="w3-opacity">Systems Analyst</p>
+          <p>As the System Analyst, you can depend on me to make sure that you get everything that you want in your program.  </p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="/assets/people/sean.jpg" alt="Sean Radimer" style="width:100%">
+        <div class="w3-container">
+          <h3>Sean Radimer</h3>
+          <p class="w3-opacity">Lead Tester</p>
+          <p>As the lead tester, I will ensure that your software will work as you expect it to!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Want to contact Stellar Analytics?</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Poolesville, Maryland</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +240-7753-3377
+</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: smcs2024.stellaranalytics@gmail.com</p>
+    <br>
+    <!-- Image of location/map -->
+    
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-padding-64" style="color:#fff!important;background-color:#ffcd8f!important">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-orange">w3.css</a></p>
+</footer>
+ 
+
+
+</body>
+</html>
