@@ -23,7 +23,7 @@ function w3_close() {
 }
 
 function toOther() {
-  window.location.href = "https://stellar-analytics.foleypsmcs.repl.co/third.html";
+  window.location.href = "https://smcs2024stellaranalytics.github.io/third.html";
 }
 
 var TxtType = function(el, toRotate, period) {
